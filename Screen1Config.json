@@ -11,7 +11,7 @@
                "9.Finally, it will apply the changes and complete the requested changes. Click on Close.",
                "10.Internet Information Services(IIS) is now enabled on Windows."],
 "InstallationLinks":["https://teckangaroo.com/enable-iis-windows-10/"],
-"VerificationScripts":["%SystemRoot%\\system32\\inetsrv\\InetMgr.exe"],
+"VerificationScripts":["reg.exe query HKLM\\SOFTWARE\\Microsoft\\InetStp /v VersionString"],
 Flags:{
 "Previous":"False",
 "Cancel":"true",
