@@ -25,8 +25,8 @@
                "23.To complete the SQL Server installation process, select Close.",
                "24.If you're instructed to restart the computer, do so now"],
 "InstallationLinks":["https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?view=sql-server-ver15"],
-"Parameters":"server;instance",
-"VerificationScripts":["reg.exe query HKLM\\SOFTWARE\\Microsoft\\InetStp /v VersionString"],
+"Parameters":"(localdb)\\MSSQLLocalDB",
+"VerificationScripts":["sqlcmd -s arg1","select @@version"],
 Flags:{
 "Previous":"true",
 "Cancel":"true",
