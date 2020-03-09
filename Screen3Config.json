@@ -17,7 +17,7 @@
                "15.A description for each component group appears in the Feature description pane after you select the feature name. You can select any combination of check boxes. For more information, see Editions and components of SQL Server 2016 or Editions and components of SQL Server 2017.",
                "16.The prerequisites for the selected features are displayed in the Prerequisites for selected features pane. Setup installs the prerequisites that aren't already installed during the installation step described later in this procedure.",
                "17.You can also specify a custom directory for shared components by using the field at the bottom of the Feature Selection page. To change the installation path for shared components, either update the path in the field at the bottom of the dialog box or select Browse to go to an installation directory.",
-               "18.The default installation path is C:\Program Files\Microsoft SQL Server\nnn\.",
+               "18.The default installation path is C:\\Program Files\\Microsoft SQL Server\\nnn\\.",
                "19.The Ready to Install page shows a tree view of the installation options that you specified during Setup. On this page, Setup indicates whether the Product Update feature is enabled or disabled and the final update version.",
                "20.To continue, select Install. SQL Server Setup first installs the required prerequisites for the selected features, then it installs the selected features.",
                "21.During installation, the Installation Progress page provides status updates so that you can monitor the installation progress as Setup continues.",
