@@ -1,0 +1,18 @@
+{
+"HeadingText":"Install SQLITE",
+"ContentText":["1.First, go to the https://www.sqlite.org website.",
+"2.Second, open the download page https://www.sqlite.org/download.html",
+"3.SQLite provides various tools for working across platforms e.g., Windows, Linux, and Mac. You need to select an appropriate version to download.",
+"4.For example, to work with SQLite on Windows, you download the command-line shell program.",
+"5.The downloaded file is in the ZIP format and its size is quite small.",
+"6.First, create a new folder e.g., C:\sqlite.",
+"7.Second, extract the content of the file that you downloaded in the previous section to the C:\sqlite folder. You should see three programs in the C:\sqlite folder",
+"8.In CommandLine Window, navigate to the C:\sqlite and type sqlite3 to get the version installed."],
+"InstallationLinks":["https://www.sqlitetutorial.net/download-install-sqlite/"],
+"VerificationScripts":["cd C:\sqlite","sqlite3"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
