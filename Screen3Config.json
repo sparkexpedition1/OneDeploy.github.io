@@ -26,7 +26,7 @@
                "24.If you're instructed to restart the computer, do so now"],
 "InstallationLinks":["https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?view=sql-server-ver15"],
 "Parameters":"(localdb)\\MSSQLLocalDB",
-"VerificationScripts":["sqlcmd -s arg1","select @@version"],
+"VerificationScripts":["sqlcmd -s arg1","select @@version;","go","exit"],
 Flags:{
 "Previous":"true",
 "Cancel":"true",
