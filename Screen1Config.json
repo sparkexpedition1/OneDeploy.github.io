@@ -1,0 +1,20 @@
+{
+"HeadingText":"Configure IIS Server",
+"ContentText":["1.Go to Start Menu and search for Control Panel. Open Control Panel.",
+               "2.Switch the Control Panel view to Category.",
+               "3.Click on Programs ",
+               "4.Now, proceed with “Turn Windows features on or off“",
+               "5.Windows Features dialog box will appear now.",
+               "6.Locate Internet Information Services and enable it.",
+               "7.Finally, Click on OK.",
+               "8.Windows will search for the required files.",
+               "9.Finally, it will apply the changes and complete the requested changes. Click on Close.",
+               "10.Internet Information Services(IIS) is now enabled on Windows."],
+"InstallationLinks":["https://teckangaroo.com/enable-iis-windows-10/"],
+"VerificationScripts":["%SystemRoot%\system32\inetsrv\InetMgr.exe"],
+Flags:{
+"Previous":"False",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
