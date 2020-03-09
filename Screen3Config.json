@@ -28,7 +28,7 @@
 "Parameters":"server;instance",
 "VerificationScripts":["reg.exe query HKLM\\SOFTWARE\\Microsoft\\InetStp /v VersionString"],
 Flags:{
-"Previous":"False",
+"Previous":"true",
 "Cancel":"true",
 "VerifySoftware":"true"
 }
