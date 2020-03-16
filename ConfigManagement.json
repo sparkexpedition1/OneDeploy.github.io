@@ -7,19 +7,19 @@
       ]
     },
     {
-      "Name": "IIS",
+      "Name": "IIS Server",
       "MinimumVersion": "10",
       "cmds": [
       ]
     },
     {
-      "Name": "sqlite",
+      "Name": "Sqlite",
       "MinimumVersion": "3",
       "cmds": [
       ]
     },
     {
-      "Name": "sql server",
+      "Name": "SQL Server",
       "MinimumVersion": "2017",
       "cmds": [
       ]
