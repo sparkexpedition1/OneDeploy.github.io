@@ -1,0 +1,47 @@
+[
+  {
+    "softwares": [{
+      "Name": "Java",
+      "MinimumVersion": "1.8.0_241",
+      "cmds": ["java -version"
+      ]
+    },
+    {
+      "Name": "IIS",
+      "MinimumVersion": "10",
+      "cmds": [
+      ]
+    },
+    {
+      "Name": "sqlite",
+      "MinimumVersion": "3",
+      "cmds": [
+      ]
+    },
+    {
+      "Name": "sql server",
+      "MinimumVersion": "2017",
+      "cmds": [
+      ]
+    },
+    {
+      "Name": "Python",
+      "MinimumVersion": "3.3",
+      "cmds": ["python --version"
+      ]
+    },
+    {
+      "Name": "Jupyter",
+      "MinimumVersion": "3.3",
+      "cmds": [
+      ]
+    },
+    {
+      "Name": "Spark",
+      "MinimumVersion": "2.7",
+      "cmds": [
+      ]
+    }
+    ]
+  }
+]
