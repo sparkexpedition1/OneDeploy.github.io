@@ -3,42 +3,56 @@
     "softwares": [{
       "Name": "Java",
       "MinimumVersion": "1.8.0_241",
+      "MaximumVersion":"13.0.2",
+      "Mandatory":"false",
       "cmds": ["java -version"
       ]
     },
     {
       "Name": "IIS Server",
       "MinimumVersion": "10",
+      "MaximumVersion":"10",
+      "Mandatory":"false",
       "cmds": [
       ]
     },
     {
       "Name": "Sqlite",
       "MinimumVersion": "3",
+      "MaximumVersion":"3",
+      "Mandatory":"false",
       "cmds": [
       ]
     },
     {
       "Name": "SQL Server",
       "MinimumVersion": "2017",
+      "MaximumVersion":"2019",
+      "Mandatory":"true",
       "cmds": [
       ]
     },
     {
       "Name": "Python",
       "MinimumVersion": "3.3",
+      "MaximumVersion":"3.7",
+      "Mandatory":"false",
       "cmds": ["python --version"
       ]
     },
     {
       "Name": "Jupyter",
       "MinimumVersion": "3.3",
+      "MaximumVersion":"3.7",
+      "Mandatory":"false",
       "cmds": [
       ]
     },
     {
       "Name": "Spark",
       "MinimumVersion": "2.7",
+      "MaximumVersion":"3.0",
+      "Mandatory":"false",
       "cmds": [
       ]
     }
