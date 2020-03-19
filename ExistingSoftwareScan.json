@@ -19,7 +19,7 @@
     {
       "Name": "Sqlite",
       "MinimumVersion": "3.0",
-      "MaximumVersion":"3.0",
+      "MaximumVersion":"4.0",
       "Mandatory":"false",
       "cmds": ["sqlite3 -version"
       ]
