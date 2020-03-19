@@ -9,7 +9,7 @@
 "7.Second, extract the content of the file that you downloaded in the previous section to the C:/sqlite folder. You should see three programs in the C:/sqlite folder",
 "8.In CommandLine Window, navigate to the C:/sqlite and type sqlite3 to get the version installed."],
 "InstallationLinks":["https://www.sqlitetutorial.net/download-install-sqlite/"],
-"VerificationScripts":["cd C:\\sqlite","sqlite3"],
+"VerificationScripts":["sqlite3 -version"],
 Flags:{
 "Previous":"true",
 "Cancel":"true",
