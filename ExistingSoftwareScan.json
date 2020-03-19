@@ -10,24 +10,24 @@
     },
     {
       "Name": "IIS Server",
-      "MinimumVersion": "10",
-      "MaximumVersion":"10",
+      "MinimumVersion": "10.0",
+      "MaximumVersion":"10.0",
       "Mandatory":"false",
       "cmds": [
       ]
     },
     {
       "Name": "Sqlite",
-      "MinimumVersion": "3",
-      "MaximumVersion":"3",
+      "MinimumVersion": "3.0",
+      "MaximumVersion":"3.0",
       "Mandatory":"false",
       "cmds": ["sqlite3 -version"
       ]
     },
     {
       "Name": "SQL Server",
-      "MinimumVersion": "2017",
-      "MaximumVersion":"2019",
+      "MinimumVersion": "15.0",
+      "MaximumVersion":"17.0",
       "Mandatory":"true",
       "cmds": [
       ]
