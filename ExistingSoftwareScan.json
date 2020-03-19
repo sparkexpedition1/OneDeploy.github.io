@@ -21,7 +21,7 @@
       "MinimumVersion": "3",
       "MaximumVersion":"3",
       "Mandatory":"false",
-      "cmds": [
+      "cmds": ["sqlite3 -version"
       ]
     },
     {
@@ -53,7 +53,7 @@
       "MinimumVersion": "2.7",
       "MaximumVersion":"3.0",
       "Mandatory":"false",
-      "cmds": [
+      "cmds": ["spark-submit --version"
       ]
     }
     ]
