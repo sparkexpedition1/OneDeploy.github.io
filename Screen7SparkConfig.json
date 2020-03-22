@@ -1,0 +1,21 @@
+{
+"HeadingText":"Install Spark",
+"ContentText":["1.Prerequisite for Spark is Java 8 Installation.",
+               "2.Download Spark from :'http://spark.apache.org/downloads.html'",
+               "3.Choose the newest release (2.3.0 in my case)",
+               "4.Choose the newest package type (Pre-built for Hadoop 2.7 or later in my case)",
+               "5.Download the .tgz file.Extract the .tgz file",
+               "6.Set the environment variables:SPARK_HOME (eg: D:\Spark\spark-2.3.0-bin-hadoop2.7) and PATH + (eg:%SPARK_HOME%\bin)",
+               "7.Next to download winutils.exe, click this link :'https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe?raw=true'",
+               "8.Move the winutils.exe file to the bin folder inside new folder(eg:winutils)",
+               "9.Set the environment variables:HADOOP_HOME(eg:D:\Spark\spark-2.3.0-bin-hadoop2.7) and PATH + (eg:%HADOOP_HOME%\bin) ",
+               "10.Spark is installed now."
+              ],
+"InstallationLinks":["https://medium.com/big-data-engineering/how-to-install-apache-spark-2-x-in-your-pc-e2047246ffc3"],
+"VerificationScripts":["spark-submit -version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
