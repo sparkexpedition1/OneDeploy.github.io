@@ -1,0 +1,20 @@
+{
+"HeadingText":"Install Java",
+"ContentText":["1.Go to the https://java.com/en/download/manual.jsp page",
+               "2.Click on Windows Online",
+               "3.The File Download dialog box appears prompting you to run or save the download file.",
+               "4.To run the installer, click Run",
+               "5.The installation process starts. Click the Install button to accept the license terms and to continue with the installation.",
+               "6.Oracle has partnered with companies that offer various products. The installer may present you with option to install these programs when you install Java.",
+               "7.After ensuring that the desired programs are selected, click the Next button to continue the installation",
+               "8.A few brief dialogs confirm the last steps of the installation process; click Close on the last dialog. This will complete Java installation process",
+               "9.You may need to restart (close and re-open) your browser to enable the Java installation in your browser"
+               "10.Set Environment variables JAVA_HOME with the installation path of Java(eg:C:\\Java) and PATH+=(eg:C:\\Java\\bin)"],
+"InstallationLinks":["https://java.com/en/download/help/windows_manual_download.xml"],
+"VerificationScripts":["java -version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
