@@ -1,0 +1,23 @@
+{
+"HeadingText":"Install Jupyter",
+"ContentText":["Jupyter can be installed in two ways:",
+               "a.Install Jupyter with Python pip Command",
+               "1.Pre-requisite for Jupyter is Python 3.3 or greater version installation.",
+               "2.First, ensure that you have the latest pip; older versions may have trouble with some dependencies.",
+               "3.In command prompt, type 'pip install --upgrade pip' and enter.",
+               "4.Next Install Jupyter using 'pip install jupyter' and enter. Jupyter is installed now.",
+               "To run notebook, type 'jupyter notebook' and click enter in command propmt.",
+               "b.Install Jupyter with Anaconda",
+               "1.Download Anaconda. We recommend downloading Anaconda’s latest Python 3 version (currently Python 3.7).",
+               "2.Install the version of Anaconda which you downloaded, following the instructions on the download page.",
+               "3.you have successfully installed Jupyter Notebook. To run the notebook, type 'jupyter notebook' and click enter in anaconda prompt"
+               ],
+"InstallationLinks":["https://jupyter.readthedocs.io/en/latest/install.html"],
+"Parameters":"Anaconda prompt",
+"VerificationScripts":["jupyter notebook"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
