@@ -1,0 +1,33 @@
+{
+"HeadingText":"Install Python",
+"ContentText":["Python can be installed in two ways:",
+               "a.Python Direct Installation:",
+               "1.Download latest Python version from https://www.python.org/downloads/",
+               "2.The web installer is a small initial download, and it will automatically download the required components as necessary",
+               "3.After starting the installer, one of two options may be selected: Install Now and Customize Installation",
+               "4.Select Install Now.",
+               "5.You will not need to be an administrator (unless a system update for the C Runtime Library is required or you install the Python Launcher for Windows for all users)",
+               "6.Python will be installed into your user directory",
+               "7.The Python Launcher for Windows will be installed according to the option at the bottom of the first page",
+               "8.The standard library, test suite, launcher and pip will be installed.",
+               "9.If selected, the install directory will be added to your PATH",
+               "10.Shortcuts will only be visible for the current user",
+               "b.Install Anaconda Python Distribution:",
+               "1.Download Anaconda Installer : https://www.anaconda.com/distribution/#windows",
+               "2.Double click the installer to launch.Click Next.Read the licensing terms and click “I Agree”".,
+               "3.Select an install for “Just Me” unless you’re installing for all users (which requires Windows Administrator privileges) and click Next.",
+               "4.Select a destination folder to install Anaconda and click the Next button.(Install Anaconda to a directory path that does not contain spaces or unicode characters.)",
+               "5.Choose whether to add Anaconda to your PATH environment variable. We recommend not adding Anaconda to the PATH environment variable, since this can interfere with other software.",
+               "6.Instead, use Anaconda software by opening Anaconda Navigator or the Anaconda Prompt from the Start Menu",
+               "7.Choose whether to register Anaconda as your default Python. Unless you plan on installing and running multiple versions of Anaconda or multiple versions of Python, accept the default and leave this box checked",
+               "8.Click the Install button.After a successful installation you will see the “Thanks for installing Anaconda” dialog box",
+               "9.Click the Finish button"
+               ],
+"InstallationLinks":["https://docs.python.org/3/using/windows.html","https://docs.anaconda.com/anaconda/install/windows/"],
+"VerificationScripts":["python --version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
