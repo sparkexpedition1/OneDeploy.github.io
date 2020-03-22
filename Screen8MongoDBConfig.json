@@ -1,0 +1,27 @@
+{
+"HeadingText":"Install SQL Server",
+"ContentText":["1.Prerequisites: Windows version previous to Windows 10 must install 'update for Universal C Runtime for windows'",
+               "2.Download the installer (.msi) from :'https://www.mongodb.com/download-center/community?jmp=docs'",
+               "3.The Download Center should display MongoDB Community Server download information. If not, select Server, then click the MongoDB Community Server tab.",
+               "4.In the Version dropdown, select the version that corresponds to the latest MongoDB Server.In the OS dropdown,select compatible os version.",
+               "5.In the Package drop down, MSI should be selected.Click Download",
+               "6.Go to the directory where you downloaded the MongoDB installer (.msi file). By default, this is your Downloads directory.",
+               "7.Double-click the .msi file",
+               "8.Choose Setup Type: Complete",
+               "9.Starting in MongoDB 4.0, you can configure and start MongoDB as a Windows service during the install, and the MongoDB service is started upon successful installation",
+               "10.Select Install MongoD as a Service MongoDB as a service",
+               "11.Run the service as Network Service user (Default).This is a Windows user account that is built-in to Windows",
+               "12.For Windows 8 or greater, you can have the wizard install MongoDB Compass. To install Compass, select Install MongoDB Compass (Default)",
+               "13.When ready, click Install.The MongoDB service is started upon successful installation",
+               "14.To begin using MongoDB, connect a mongo.exe shell to the running MongoDB instance.",
+               "15.Either:From Windows Explorer/File Explorer, go to C:/Program Files/MongoDB/Server/4.2/bin/ directory and double-click on mongo.exe.",
+               "16.Or, open a Command Interpreter with Administrative privileges and run: 'C:/Program Files/MongoDB/Server/4.2/bin/mongo.exe'",
+               "17.Set Environment Variable : PATH with mongo db installation location (eg:C:/Program Files/MongoDB/Server/4.2/bin/mongod.exe)"],
+"InstallationLinks":["https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/"],
+"VerificationScripts":["mongod --version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
