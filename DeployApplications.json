@@ -1,5 +1,5 @@
  {
-    "softwares": [{
+    "applications": [{
       "Name": "CodeGen",
       "FileName":"CodeGenWebApp.zip",
       "WebSiteName":"CodeGenWebApp"
