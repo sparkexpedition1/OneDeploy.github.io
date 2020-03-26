@@ -14,7 +14,7 @@
                "10.Shortcuts will only be visible for the current user",
                "b.Install Anaconda Python Distribution:",
                "1.Download Anaconda Installer : https://www.anaconda.com/distribution/#windows",
-               "2.Double click the installer to launch.Click Next.Read the licensing terms and click “I Agree”".,
+               "2.Double click the installer to launch.Click Next.Read the licensing terms and click “I Agree”",
                "3.Select an install for “Just Me” unless you’re installing for all users (which requires Windows Administrator privileges) and click Next.",
                "4.Select a destination folder to install Anaconda and click the Next button.(Install Anaconda to a directory path that does not contain spaces or unicode characters.)",
                "5.Choose whether to add Anaconda to your PATH environment variable. We recommend not adding Anaconda to the PATH environment variable, since this can interfere with other software.",
