@@ -55,6 +55,14 @@
       "Mandatory":"false",
       "cmds": ["spark-submit --version"
       ]
+    },
+    {
+      "Name": "MongoDB",
+      "MinimumVersion": "4.0",
+      "MaximumVersion":"4.1",
+      "Mandatory":"false",
+      "cmds": ["mongod --version"
+      ]
     }
     ]
   }
