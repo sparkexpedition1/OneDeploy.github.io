@@ -1,34 +1,44 @@
 [
   {
     "Mode": "Single",
-    "Type": [
-      "Local",
-      "Cloud"
-    ],
+    
     "SoftwaresRequired": [
       {
         "Name": "SQL",
+"Type": [
+      "Local",
+      "Cloud"
+    ],
         "Data": [
           "test1",
           "test2"
         ]
       },
-{
-        "Name": "MongoDB",
+      {
+        "Name": "MongoDB","Type": [
+      "Local",
+      "Cloud"
+    ],
         "Data": [
           "test3",
           "test4"
         ]
       },
-{
-        "Name": "Spark",
+      {
+        "Name": "Spark","Type": [
+      "Local",
+      "Cloud"
+    ],
         "Data": [
           "test5",
           "test6"
         ]
       },
-{
-        "Name": "Web Application",
+      {
+        "Name": "Web Application","Type": [
+      "Local",
+      "Cloud"
+    ],
         "Data": [
           "test7",
           "test8"
@@ -38,16 +48,54 @@
   },
   {
     "Mode": "Multi",
-    "Type": [
+    
+    "SoftwaresRequired": [
+      {
+        "Name": "SQL","Type": [
       "Local",
       "Cloud"
     ],
-    "SoftwaresRequired": [
-      {
-        "Name": "SQL",
         "Data": [
           "test3",
           "test4"
+        ]
+      }
+    ]
+  },
+{
+    "Mode": "PAAS",
+    
+    "SoftwaresRequired": [
+      {
+        "Name": "SQL",
+"Type":["Azure VM","Azure SQL Server"],
+        "Data": [
+          "test1",
+          "test2"
+        ]
+      },
+      {
+        "Name": "MongoDB",
+"Type":["Azure VM","Azure CosmosDB"],
+        "Data": [
+          "test3",
+          "test4"
+        ]
+      },
+      {
+        "Name": "Spark",
+"Type":["Azure VM","Azure Databricks"],
+        "Data": [
+          "test5",
+          "test6"
+        ]
+      },
+      {
+        "Name": "Web Application",
+"Type":["Azure VM","Azure Website"],
+        "Data": [
+          "test7",
+          "test8"
         ]
       }
     ]
