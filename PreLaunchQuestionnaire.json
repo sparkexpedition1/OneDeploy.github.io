@@ -1,0 +1,55 @@
+[
+  {
+    "Mode": "Single",
+    "Type": [
+      "Local",
+      "Cloud"
+    ],
+    "SoftwaresRequired": [
+      {
+        "Name": "SQL",
+        "Data": [
+          "test1",
+          "test2"
+        ]
+      },
+{
+        "Name": "MongoDB",
+        "Data": [
+          "test3",
+          "test4"
+        ]
+      },
+{
+        "Name": "Spark",
+        "Data": [
+          "test5",
+          "test6"
+        ]
+      },
+{
+        "Name": "Web Application",
+        "Data": [
+          "test7",
+          "test8"
+        ]
+      }
+    ]
+  },
+  {
+    "Mode": "Multi",
+    "Type": [
+      "Local",
+      "Cloud"
+    ],
+    "SoftwaresRequired": [
+      {
+        "Name": "SQL",
+        "Data": [
+          "test3",
+          "test4"
+        ]
+      }
+    ]
+  }
+]
