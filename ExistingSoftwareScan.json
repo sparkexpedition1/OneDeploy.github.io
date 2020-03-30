@@ -13,7 +13,7 @@
       "MinimumVersion": "10.0",
       "MaximumVersion":"10.0",
       "Mandatory":"false",
-      "cmds": [
+      "cmds": ["REG QUERY HKLM\\SOFTWARE\\Microsoft\\InetStp /v VersionString"
       ]
     },
     {
@@ -29,7 +29,7 @@
       "MinimumVersion": "15.0",
       "MaximumVersion":"17.0",
       "Mandatory":"true",
-      "cmds": [
+      "cmds": ["sqlcmd","select @@version","go","exit"
       ]
     },
     {
@@ -45,7 +45,7 @@
       "MinimumVersion": "3.3",
       "MaximumVersion":"3.7",
       "Mandatory":"false",
-      "cmds": [
+      "cmds": ["jupyter notebook"
       ]
     },
     {
