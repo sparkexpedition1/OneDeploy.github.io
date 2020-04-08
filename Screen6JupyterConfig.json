@@ -13,7 +13,7 @@
                "3.you have successfully installed Jupyter Notebook. To run the notebook, type 'jupyter notebook' and click enter in anaconda prompt"
                ],
 "InstallationLinks":["https://jupyter.readthedocs.io/en/latest/install.html"],
-"Parameters":"Anaconda prompt",
+"Parameters":"Provide anaconda or python installation path",
 "VerificationScripts":["jupyter notebook"],
 Flags:{
 "Previous":"true",
