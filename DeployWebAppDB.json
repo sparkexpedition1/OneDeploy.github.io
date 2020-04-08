@@ -1,0 +1,14 @@
+ {
+  "DeployList": [
+    {
+      "Name": "CodeGenWebApp",
+      "FileName": "CodeGenWebApp.zip",
+      "Type": "WebApp"
+    },
+    {
+      "Name": "AdvWorksDB",
+      "FileName": "AdvWorks.bacpac",
+      "Type": "DB"
+    }
+  ]
+}
