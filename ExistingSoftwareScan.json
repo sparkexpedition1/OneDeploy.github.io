@@ -34,7 +34,7 @@
     },
     {
       "Name": "Python",
-      "MinimumVersion": "3.3",
+      "MinimumVersion": "2.7",
       "MaximumVersion":"3.7",
       "Mandatory":"false",
       "cmds": ["python --version"
@@ -42,7 +42,7 @@
     },
     {
       "Name": "Jupyter",
-      "MinimumVersion": "3.3",
+      "MinimumVersion": "2.7",
       "MaximumVersion":"3.7",
       "Mandatory":"false",
       "cmds": ["jupyter notebook list"
