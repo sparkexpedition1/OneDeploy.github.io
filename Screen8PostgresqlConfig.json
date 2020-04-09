@@ -1,0 +1,22 @@
+{
+"HeadingText":"Install PostgreSQL",
+"ContentText":["1.First, you need to go to the download page of PostgreSQL installers on the EnterpriseDB : https://www.enterprisedb.com/downloads/postgres-postgresql-downloads",
+               "2.click the download link of the latest version.",
+               "3.Once download is complete, Double click on the installer file, an installation wizard will appear and guide you through multiple steps where you can choose different options that you would like to have in PostgreSQL",
+               "4.Click the Next button",
+               "5.Specify installation folder, choose your own or keep the default folder suggested by PostgreSQL installer and click the Next button",
+               "6.Select components to install and click the Next button",
+               "7.Select the database directory to store the data. Just leave it by default or choose your own and click the Next button",
+               "8.Enter the password for the database superuser (postgres)",
+               "9.Enter the port for PostgreSQL. Make sure that no other applications are using this port. Leave it as default if you are unsure.",
+               "10.Choose the default locale used by the database and click the Next button",
+               "11.Ready to install PostgreSQL. Click the Next button to start installing",
+               "12.Click the Finish button to complete the PostgreSQL installation."
+               ],
+"VerificationScripts":["mongod --version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
