@@ -12,6 +12,7 @@
                "10.Choose the default locale used by the database and click the Next button",
                "11.Ready to install PostgreSQL. Click the Next button to start installing",
                "12.Click the Finish button to complete the PostgreSQL installation."
+               "13.Set Environment Variable : PATH with Postgresql installation location (eg:C:/Program Files/PostgreSQL/12/bin)"
                ],
 "InstallationLinks":["https://www.postgresqltutorial.com/install-postgresql/"],
 "VerificationScripts":["postgres --version"],
