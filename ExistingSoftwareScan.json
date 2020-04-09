@@ -45,7 +45,7 @@
       "MinimumVersion": "3.3",
       "MaximumVersion":"3.7",
       "Mandatory":"false",
-      "cmds": ["jupyter notebook"
+      "cmds": ["jupyter notebook list"
       ]
     },
     {
