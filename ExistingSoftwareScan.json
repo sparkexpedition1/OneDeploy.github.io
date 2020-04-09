@@ -57,11 +57,19 @@
       ]
     },
     {
-      "Name": "MongoDB",
-      "MinimumVersion": "4.0",
-      "MaximumVersion":"4.1",
+      "Name": "Postgresql",
+      "MinimumVersion": "10.0",
+      "MaximumVersion":"14.0",
       "Mandatory":"false",
-      "cmds": ["mongod --version"
+      "cmds": ["postgres --version"
+      ]
+    },
+    {
+      "Name": "CouchDB",
+      "MinimumVersion": "2.0",
+      "MaximumVersion":"3.0",
+      "Mandatory":"false",
+      "cmds": [
       ]
     }
     ]
