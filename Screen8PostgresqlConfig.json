@@ -1,6 +1,6 @@
 {
 "HeadingText":"Install PostgreSQL",
-"ContentText":["1.First, you need to go to the download page of PostgreSQL installers on the EnterpriseDB : https://www.enterprisedb.com/downloads/postgres-postgresql-downloads",
+"ContentText":["1.First, you need to go to the download page of PostgreSQL installers on the EnterpriseDB : https://www.enterprisedb.com/downloads/postgres-postgresql-downloads/",
                "2.click the download link of the latest version.",
                "3.Once download is complete, Double click on the installer file, an installation wizard will appear and guide you through multiple steps where you can choose different options that you would like to have in PostgreSQL",
                "4.Click the Next button",
@@ -13,7 +13,8 @@
                "11.Ready to install PostgreSQL. Click the Next button to start installing",
                "12.Click the Finish button to complete the PostgreSQL installation."
                ],
-"VerificationScripts":["mongod --version"],
+"InstallationLinks":["https://www.postgresqltutorial.com/install-postgresql/"],
+"VerificationScripts":["postgres --version"],
 Flags:{
 "Previous":"true",
 "Cancel":"true",
