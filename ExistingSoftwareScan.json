@@ -61,7 +61,7 @@
       "MinimumVersion": "10.0",
       "MaximumVersion":"14.0",
       "Mandatory":"false",
-      "cmds": ["postgres --version"
+      "cmds": [
       ]
     },
     {
