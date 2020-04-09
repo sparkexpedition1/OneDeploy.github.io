@@ -1,5 +1,5 @@
 {
-"HeadingText":"Install SQL Server",
+"HeadingText":"Install MongoDB",
 "ContentText":["1.Prerequisites: Windows version previous to Windows 10 must install 'update for Universal C Runtime for windows'",
                "2.Download the installer (.msi) from :'https://www.mongodb.com/download-center/community?jmp=docs'",
                "3.The Download Center should display MongoDB Community Server download information. If not, select Server, then click the MongoDB Community Server tab.",
