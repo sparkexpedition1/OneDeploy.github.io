@@ -1,0 +1,17 @@
+{
+"HeadingText":"Install Apache CouchDB",
+"ContentText":["1.Prerequisite for couchdb is: Windows 8, 8.1, and 10 require the .NET Framework v3.5 to be installed.",
+               "2.Get the latest Windows binaries from the CouchDB web site: https://couchdb.apache.org/",
+               "3.Follow the installation wizard steps. Be sure to install CouchDB to a path with no spaces, such as C:/CouchDB.",
+               "4.Your installation is not complete. Be sure to complete the Setup(https://docs.couchdb.org/en/stable/setup/index.html#setup) steps for a single node or clustered installation.",
+               "5.Open up Fauxton: http://localhost:5984/_utils",
+               "13.Set Environment Variable : PATH with Postgresql installation location (eg:C:/Program Files/PostgreSQL/12/bin)"
+               ],
+"InstallationLinks":["https://docs.couchdb.org/en/stable/install/windows.html"],
+"VerificationScripts":["postgres --version"],
+Flags:{
+"Previous":"true",
+"Cancel":"true",
+"VerifySoftware":"true"
+}
+}
